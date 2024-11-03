@@ -102,7 +102,7 @@ return (
 
 {/* Form */}
     <form onSubmit={handleAddHog} className="hog-form">
-      <h2>Add a new Hog</h2>
+      <h2>Add a new Hog in the form below!</h2>
       <input name="name" placeholder="Name" required />
       <input name="specialty" placeholder="Specialty" required />
       <input name="weight" placeholder="Weight" type="number" step="0.1" required />
