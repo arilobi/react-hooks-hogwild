@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:hsl(0, 0%, 100%);
 }
 
 .App {
@@ -27,7 +28,7 @@ body {
 }
 
 .headerText {
-  color: #F5A9BC;
+  color: #b26075;
   font-size: 3em;
   margin: 0% 2% 0% 2%;
 }
@@ -45,8 +46,9 @@ body {
 }
 
 .normalText {
-  font-family: Georgia, serif;
-  font-size: .75em;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 600px;
 }
 
 .hoggyText {
@@ -128,7 +130,6 @@ ul {
   transform: scale(1.05);
 }
 
-
 .App-logo {
   animation: App-logo-spin infinite 5s linear;
   height: 80px;
@@ -139,6 +140,12 @@ ul {
   padding: 1%;
   clear: both;
 }
+
+.hog-form {
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
 
 
 @keyframes App-logo-spin {
