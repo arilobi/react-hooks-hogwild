@@ -70,7 +70,6 @@ const handleAddHog = (e) => {
 
 const filteredHogs = hogsData.filter(hog => (!filterGreased || hog.greased) && !hiddenHogs.has(hog.name));
 
-// the parantheses a and b symbolize name and weight
 const sortedHogs = [...filteredHogs].sort((a, b) => {
   if (sortType === "name")
     // The localeCompare makes the Hogs to appear in alphabetical order. 
